@@ -10,4 +10,7 @@
 1.Java 开启后台 HTTP 服务，提供后台接口，开启静态 WEB 服务部署前端项目，使用 http、ws 交互。  
 2.JXBrowser 启动窗体，使用 Chrom 内核加载前端入口页。  
 
+## 前端代码
 
+可以直接将 vue 项目打包后复制到资源路径下，默认 index.html 作为入口页面：  
+resourse/dist   
