@@ -36,3 +36,11 @@ resourse/table
 ## 日志系统
 
 使用轻量级日志框架 tinylog。  
+
+## 打包 exe
+
+在 pom 中添加 exec-maven-plugin 插件，在 build 完成后调用自定义打包工具。   
+打包默认使用 exe4j，脚本见 org.util/BuildTool.java，会自动创建 exe4j 打包配置并调用 exe4jc 进行打包：
+![image](https://github.com/user-attachments/assets/3cbff6d1-a0f3-43a9-8b50-1912c5f55854)
+
+
