@@ -12,5 +12,27 @@
 
 ## 前端代码
 
-可以直接将 vue 项目打包后复制到资源路径下，默认 index.html 作为入口页面：  
-resourse/dist   
+使用 HttpServer 开发轻量级静态资源服务器，默认 index.html 作为入口页面。  
+可以直接将 vue 项目打包后复制到资源路径下：   
+resourse/dist       
+
+
+## 后端代码
+
+使用 HttpServer 开发轻量级 http 服务器。   
+使用 Java-WebSocket 开发轻量级 ws 服务器。   
+
+## UI调试
+
+chrom内核提供了 debug 调试工具，在 jxbrowser 中打开即可：    
+
+也可以开启底部工具栏，实现浏览器的前进、后退、刷新按钮。    
+
+## 数据库
+
+本地使用 sqlite 数据库，sql 脚本放到资源理解下启动会自动建库建表。   
+resourse/table    
+
+## 日志系统
+
+使用轻量级日志框架 tinylog。  
