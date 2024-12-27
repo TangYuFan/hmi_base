@@ -47,4 +47,5 @@ resourse/table
 打包默认使用 exe4j，会自动创建 exe4j 打包配置并调用 exe4jc 进行打包，脚本见：   
 org.util/BuildTool.java    
 
+<th><img src="pic/build.png" width="936" height="123"></th>
 
