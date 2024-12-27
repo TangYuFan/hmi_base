@@ -1,5 +1,12 @@
 # hmi_base
 
+<table border="1">
+  <tr>
+    <th><img src="pic/index.png" width="200" height="150"></th>
+  </tr>
+</table>
+
+
 底座（Java + Chrom内核）+ UI（VUE）开发桌面窗体应用。  
 思路来源于 Uniapp + Android 底座，前端开发着重交互，后端开发着重数据处理。  
 相较于 Electron 等框架可以前后端分离加快开发周期，提供了更多跨语言支持方便和更底层的硬件交互。  
@@ -25,9 +32,13 @@ resourse/dist
 
 ## UI调试
 
-chrom内核提供了 debug 调试工具，在 jxbrowser 中打开即可：    
+chrom内核提供了 debug 调试工具，右键打开即可：
 
-也可以开启底部工具栏，实现浏览器的前进、后退、刷新按钮。    
+<table border="1">
+  <tr>
+    <th><img src="pic/debug.png" width="200" height="150"></th>
+  </tr>
+</table>
 
 ## 数据库
 
