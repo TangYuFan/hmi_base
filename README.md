@@ -1,10 +1,6 @@
 # hmi_base
 
-<table border="1">
-  <tr>
-    <th><img src="pic/index.png" width="200" height="150"></th>
-  </tr>
-</table>
+<th><img src="pic/index.png" width="886" height="524"></th>
 
 
 底座（Java + Chrom内核）+ UI（VUE）开发桌面窗体应用。  
@@ -34,11 +30,7 @@ resourse/dist
 
 chrom内核提供了 debug 调试工具，右键打开即可：
 
-<table border="1">
-  <tr>
-    <th><img src="pic/debug.png" width="200" height="150"></th>
-  </tr>
-</table>
+<th><img src="pic/debug.png" width="941" height="120"></th>
 
 ## 数据库
 
