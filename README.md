@@ -30,7 +30,7 @@ resourse/dist
 
 chrom内核提供了 debug 调试工具，右键打开即可：
 
-<th><img src="pic/debug.png" width="941" height="120"></th>
+<th><img src="pic/debug.png" width="941" height="268"></th>
 
 ## 数据库
 
