@@ -20,7 +20,6 @@
 可以直接将 vue 项目打包后复制到资源路径下：   
 resourse/dist       
 
-
 ## 后端代码
 
 使用 HttpServer 开发轻量级 http 服务器。   
@@ -31,15 +30,6 @@ resourse/dist
 chrom内核提供了 debug 调试工具，右键打开即可：
 
 <th><img src="pic/debug.png" width="941" height="268"></th>
-
-## 数据库
-
-本地使用 sqlite 数据库，sql 脚本放到资源理解下启动会自动建库建表。   
-resourse/table    
-
-## 日志系统
-
-使用轻量级日志框架 tinylog。  
 
 ## 打包 exe
 
