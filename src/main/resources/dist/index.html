@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>生产测试</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      background-color: #f4f4f4;
+    }
+    header {
+      background-color: #f8f9fa;
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+      display: flex;
+      align-items: center;
+    }
+    .toolbar {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .toolbar button {
+      border: none;
+      background: none;
+      cursor: pointer;
+      padding: 5px;
+      font-size: 12px; /* 调整按钮字体大小 */
+    }
+    .toolbar button:hover {
+      color: #007bff;
+    }
+    .toolbar select {
+      padding: 5px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-size: 12px; /* 统一下拉框字体大小 */
+    }
+    header h1 {
+      margin-left: auto;
+      font-size: 16px;
+    }
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+    }
+    .log-container {
+      flex: 1;
+      border: 1px solid #ddd;
+      background-color: #fff;
+      border-radius: 4px;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    .log-list {
+      flex: 1;
+      overflow-y: auto;
+      padding: 10px;
+      font-size: 12px;
+      line-height: 1.5;
+      background-color: #f9f9f9;
+    }
+    .log-list pre {
+      margin: 0;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+    }
+    footer {
+      text-align: center;
+      padding: 5px;
+      font-size: 12px;
+      background-color: #f8f9fa;
+      border-top: 1px solid #ddd;
+    }
+  </style>
+</head>
+<body>
+<header>
+  <div class="toolbar">
+    <button>⏯ 启动</button>
+    <button>⏹ 停止</button>
+    <button>📂 打开</button>
+    <button>⬇ 下载</button>
+    <label for="log-level">Level:</label>
+    <select id="log-level">
+      <option value="TRACE">TRACE</option>
+      <option value="INFO">INFO</option>
+      <option value="DEBUG">DEBUG</option>
+      <option value="ERROR">ERROR</option>
+    </select>
+  </div>
+  <h1>生产测试</h1>
+</header>
+<main>
+  <div class="log-container">
+    <div class="log-list">
+                <pre>
+2024-12-27 14:00:20 INFO: 系统初始化成功！
+2024-12-27 14:00:20 INFO: 当前未上传记录…
+2024-12-27 14:00:20 INFO: 未上传数据处理完毕。
+2024-12-27 14:00:20 INFO: 正在执行序列号导入操作…
+2024-12-27 14:00:20 INFO: 开始批量备份…
+2024-12-27 14:00:21 INFO: 序列号备份：0，导入成功：0，备份总数：100
+                </pre>
+    </div>
+  </div>
+</main>
+<footer>
+  当前版本：v1.0.2
+</footer>
+</body>
+</html>
