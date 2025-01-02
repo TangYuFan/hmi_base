@@ -1,6 +1,6 @@
 # hmi_base
 
-<th><img src="pic/index.png" width="886" height="524"></th>
+<th><img src="pic/index2.png" width="886" height="524"></th>
 
 
 底座（Java + Chrom内核）+ UI（VUE）开发桌面窗体应用。  
